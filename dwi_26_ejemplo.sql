@@ -1,22 +1,4 @@
--- =====================================================================
---  Base de datos: dwi_26_ejemplo
---  Proyecto: practica_con_bd (Servlets + JSP + MySQL/MariaDB)
---
---  Este script crea:
---    - La base de datos
---    - El usuario de la aplicacion (dwi / dwi) con permisos
---    - La tabla alumnos (CRUD de calificaciones)
---    - La tabla usuarios (registro / login / verificacion por correo)
---    - Datos de ejemplo
---
---  Ejecutar como root:
---    mysql -u root < dwi_26_ejemplo.sql
---  o pegarlo en la pestaña SQL de phpMyAdmin.
--- =====================================================================
 
--- ---------------------------------------------------------------------
--- Base de datos
--- ---------------------------------------------------------------------
 CREATE DATABASE IF NOT EXISTS dwi_26_ejemplo
     CHARACTER SET utf8mb4
     COLLATE utf8mb4_unicode_ci;
